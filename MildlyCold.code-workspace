@@ -1,0 +1,868 @@
+{
+	"folders": [
+		{
+			"name": "MildlyCold",
+			"path": "."
+		},
+		{
+			"name": "UE5",
+			"path": "/home/corys/projects/UnrealEngine"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"npm.autoDetect": "off"
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp",
+			"vadimcn.vscode-lldb",
+			"ms-vscode.mono-debug",
+			"dfarley1.file-picker"
+		]
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "MildlyCold Linux Debug Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyCold",
+					"Linux",
+					"Debug",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyCold Linux Debug Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyCold",
+					"Linux",
+					"Debug",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"MildlyCold Linux Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyCold Linux Debug Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyCold",
+					"Linux",
+					"Debug",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyCold Linux DebugGame Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyCold",
+					"Linux",
+					"DebugGame",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyCold Linux DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyCold",
+					"Linux",
+					"DebugGame",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"MildlyCold Linux DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyCold Linux DebugGame Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyCold",
+					"Linux",
+					"DebugGame",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyCold Linux Development Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyCold",
+					"Linux",
+					"Development",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyCold Linux Development Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyCold",
+					"Linux",
+					"Development",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"MildlyCold Linux Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyCold Linux Development Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyCold",
+					"Linux",
+					"Development",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyCold Linux Test Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyCold",
+					"Linux",
+					"Test",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyCold Linux Test Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyCold",
+					"Linux",
+					"Test",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"MildlyCold Linux Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyCold Linux Test Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyCold",
+					"Linux",
+					"Test",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyCold Linux Shipping Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyCold",
+					"Linux",
+					"Shipping",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyCold Linux Shipping Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyCold",
+					"Linux",
+					"Shipping",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"MildlyCold Linux Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyCold Linux Shipping Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyCold",
+					"Linux",
+					"Shipping",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyCold LinuxArm64 Debug Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyCold",
+					"LinuxArm64",
+					"Debug",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyCold LinuxArm64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyCold",
+					"LinuxArm64",
+					"Debug",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"MildlyCold LinuxArm64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyCold LinuxArm64 Debug Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyCold",
+					"LinuxArm64",
+					"Debug",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyCold LinuxArm64 DebugGame Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyCold",
+					"LinuxArm64",
+					"DebugGame",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyCold LinuxArm64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyCold",
+					"LinuxArm64",
+					"DebugGame",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"MildlyCold LinuxArm64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyCold LinuxArm64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyCold",
+					"LinuxArm64",
+					"DebugGame",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyCold LinuxArm64 Development Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyCold",
+					"LinuxArm64",
+					"Development",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyCold LinuxArm64 Development Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyCold",
+					"LinuxArm64",
+					"Development",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"MildlyCold LinuxArm64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyCold LinuxArm64 Development Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyCold",
+					"LinuxArm64",
+					"Development",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyCold LinuxArm64 Test Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyCold",
+					"LinuxArm64",
+					"Test",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyCold LinuxArm64 Test Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyCold",
+					"LinuxArm64",
+					"Test",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"MildlyCold LinuxArm64 Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyCold LinuxArm64 Test Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyCold",
+					"LinuxArm64",
+					"Test",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyCold LinuxArm64 Shipping Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyCold",
+					"LinuxArm64",
+					"Shipping",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyCold LinuxArm64 Shipping Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyCold",
+					"LinuxArm64",
+					"Shipping",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"MildlyCold LinuxArm64 Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyCold LinuxArm64 Shipping Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyCold",
+					"LinuxArm64",
+					"Shipping",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyColdEditor Linux Debug Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyColdEditor",
+					"Linux",
+					"Debug",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyColdEditor Linux Debug Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyColdEditor",
+					"Linux",
+					"Debug",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"MildlyColdEditor Linux Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyColdEditor Linux Debug Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyColdEditor",
+					"Linux",
+					"Debug",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyColdEditor Linux DebugGame Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyColdEditor",
+					"Linux",
+					"DebugGame",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyColdEditor Linux DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyColdEditor",
+					"Linux",
+					"DebugGame",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"MildlyColdEditor Linux DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyColdEditor Linux DebugGame Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyColdEditor",
+					"Linux",
+					"DebugGame",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyColdEditor Linux Development Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyColdEditor",
+					"Linux",
+					"Development",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyColdEditor Linux Development Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyColdEditor",
+					"Linux",
+					"Development",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"MildlyColdEditor Linux Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			},
+			{
+				"label": "MildlyColdEditor Linux Development Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"MildlyColdEditor",
+					"Linux",
+					"Development",
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/corys/projects/UnrealEngine"
+				}
+			}
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch MildlyCold (Debug)",
+				"request": "launch",
+				"program": "/home/corys/projects/MildlyCold/Binaries/Linux/MildlyCold-Linux-Debug",
+				"preLaunchTask": "MildlyCold Linux Debug Build",
+				"args": [
+				],
+				"cwd": "/home/corys/projects/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/home/corys/projects/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch MildlyCold (DebugGame)",
+				"request": "launch",
+				"program": "/home/corys/projects/MildlyCold/Binaries/Linux/MildlyCold-Linux-DebugGame",
+				"preLaunchTask": "MildlyCold Linux DebugGame Build",
+				"args": [
+				],
+				"cwd": "/home/corys/projects/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/home/corys/projects/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch MildlyCold (Development)",
+				"request": "launch",
+				"program": "/home/corys/projects/MildlyCold/Binaries/Linux/MildlyCold",
+				"preLaunchTask": "MildlyCold Linux Development Build",
+				"args": [
+				],
+				"cwd": "/home/corys/projects/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/home/corys/projects/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch MildlyCold (Test)",
+				"request": "launch",
+				"program": "/home/corys/projects/MildlyCold/Binaries/Linux/MildlyCold-Linux-Test",
+				"preLaunchTask": "MildlyCold Linux Test Build",
+				"args": [
+				],
+				"cwd": "/home/corys/projects/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/home/corys/projects/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch MildlyCold (Shipping)",
+				"request": "launch",
+				"program": "/home/corys/projects/MildlyCold/Binaries/Linux/MildlyCold-Linux-Shipping",
+				"preLaunchTask": "MildlyCold Linux Shipping Build",
+				"args": [
+				],
+				"cwd": "/home/corys/projects/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/home/corys/projects/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch MildlyColdEditor (Debug)",
+				"request": "launch",
+				"program": "/home/corys/projects/UnrealEngine/Engine/Binaries/Linux/UnrealEditor-Linux-Debug",
+				"preLaunchTask": "MildlyColdEditor Linux Debug Build",
+				"args": [
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject"
+				],
+				"cwd": "/home/corys/projects/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/home/corys/projects/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch MildlyColdEditor (DebugGame)",
+				"request": "launch",
+				"program": "/home/corys/projects/UnrealEngine/Engine/Binaries/Linux/UnrealEditor-Linux-DebugGame",
+				"preLaunchTask": "MildlyColdEditor Linux DebugGame Build",
+				"args": [
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject"
+				],
+				"cwd": "/home/corys/projects/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/home/corys/projects/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch MildlyColdEditor (Development)",
+				"request": "launch",
+				"program": "/home/corys/projects/UnrealEngine/Engine/Binaries/Linux/UnrealEditor",
+				"preLaunchTask": "MildlyColdEditor Linux Development Build",
+				"args": [
+					"/home/corys/projects/MildlyCold/MildlyCold.uproject"
+				],
+				"cwd": "/home/corys/projects/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/home/corys/projects/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Generate Project Files",
+				"type": "coreclr",
+				"request": "launch",
+				"preLaunchTask": "UnrealBuildTool Linux Development Build",
+				"program": "/home/corys/projects/UnrealEngine/Engine/Build/BatchFiles/RunUBT.bat",
+				"args": [
+					"-projectfiles",
+					"-vscode",
+					"-project=/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-game",
+					"-engine",
+					"-dotnet"
+				],
+				"console": "internalConsole",
+				"internalConsoleOptions": "openOnSessionStart",
+				"stopAtEntry": false,
+				"cwd": "/home/corys/projects/UnrealEngine"
+			}
+		]
+	}
+}
