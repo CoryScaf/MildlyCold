@@ -6,7 +6,7 @@
 		},
 		{
 			"name": "UE5",
-			"path": "/home/corys/projects/UnrealEngine"
+			"path": "/home/cory/projects/UnrealEngine"
 		}
 	],
 	"settings": {
@@ -33,13 +33,13 @@
 					"MildlyCold",
 					"Linux",
 					"Debug",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -50,7 +50,7 @@
 					"MildlyCold",
 					"Linux",
 					"Debug",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -59,7 +59,7 @@
 				],
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -70,14 +70,14 @@
 					"MildlyCold",
 					"Linux",
 					"Debug",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex",
 					"-clean"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -88,13 +88,13 @@
 					"MildlyCold",
 					"Linux",
 					"DebugGame",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -105,7 +105,7 @@
 					"MildlyCold",
 					"Linux",
 					"DebugGame",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -114,7 +114,7 @@
 				],
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -125,14 +125,14 @@
 					"MildlyCold",
 					"Linux",
 					"DebugGame",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex",
 					"-clean"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -143,13 +143,13 @@
 					"MildlyCold",
 					"Linux",
 					"Development",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -160,7 +160,7 @@
 					"MildlyCold",
 					"Linux",
 					"Development",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -169,7 +169,7 @@
 				],
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -180,14 +180,14 @@
 					"MildlyCold",
 					"Linux",
 					"Development",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex",
 					"-clean"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -198,13 +198,13 @@
 					"MildlyCold",
 					"Linux",
 					"Test",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -215,7 +215,7 @@
 					"MildlyCold",
 					"Linux",
 					"Test",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -224,7 +224,7 @@
 				],
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -235,14 +235,14 @@
 					"MildlyCold",
 					"Linux",
 					"Test",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex",
 					"-clean"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -253,13 +253,13 @@
 					"MildlyCold",
 					"Linux",
 					"Shipping",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -270,7 +270,7 @@
 					"MildlyCold",
 					"Linux",
 					"Shipping",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -279,7 +279,7 @@
 				],
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -290,14 +290,14 @@
 					"MildlyCold",
 					"Linux",
 					"Shipping",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex",
 					"-clean"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -308,13 +308,13 @@
 					"MildlyCold",
 					"LinuxArm64",
 					"Debug",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -325,7 +325,7 @@
 					"MildlyCold",
 					"LinuxArm64",
 					"Debug",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -334,7 +334,7 @@
 				],
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -345,14 +345,14 @@
 					"MildlyCold",
 					"LinuxArm64",
 					"Debug",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex",
 					"-clean"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -363,13 +363,13 @@
 					"MildlyCold",
 					"LinuxArm64",
 					"DebugGame",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -380,7 +380,7 @@
 					"MildlyCold",
 					"LinuxArm64",
 					"DebugGame",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -389,7 +389,7 @@
 				],
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -400,14 +400,14 @@
 					"MildlyCold",
 					"LinuxArm64",
 					"DebugGame",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex",
 					"-clean"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -418,13 +418,13 @@
 					"MildlyCold",
 					"LinuxArm64",
 					"Development",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -435,7 +435,7 @@
 					"MildlyCold",
 					"LinuxArm64",
 					"Development",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -444,7 +444,7 @@
 				],
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -455,14 +455,14 @@
 					"MildlyCold",
 					"LinuxArm64",
 					"Development",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex",
 					"-clean"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -473,13 +473,13 @@
 					"MildlyCold",
 					"LinuxArm64",
 					"Test",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -490,7 +490,7 @@
 					"MildlyCold",
 					"LinuxArm64",
 					"Test",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -499,7 +499,7 @@
 				],
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -510,14 +510,14 @@
 					"MildlyCold",
 					"LinuxArm64",
 					"Test",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex",
 					"-clean"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -528,13 +528,13 @@
 					"MildlyCold",
 					"LinuxArm64",
 					"Shipping",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -545,7 +545,7 @@
 					"MildlyCold",
 					"LinuxArm64",
 					"Shipping",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -554,7 +554,7 @@
 				],
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -565,14 +565,14 @@
 					"MildlyCold",
 					"LinuxArm64",
 					"Shipping",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex",
 					"-clean"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -583,13 +583,13 @@
 					"MildlyColdEditor",
 					"Linux",
 					"Debug",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -600,7 +600,7 @@
 					"MildlyColdEditor",
 					"Linux",
 					"Debug",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -609,7 +609,7 @@
 				],
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -620,14 +620,14 @@
 					"MildlyColdEditor",
 					"Linux",
 					"Debug",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex",
 					"-clean"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -638,13 +638,13 @@
 					"MildlyColdEditor",
 					"Linux",
 					"DebugGame",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -655,7 +655,7 @@
 					"MildlyColdEditor",
 					"Linux",
 					"DebugGame",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -664,7 +664,7 @@
 				],
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -675,14 +675,14 @@
 					"MildlyColdEditor",
 					"Linux",
 					"DebugGame",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex",
 					"-clean"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -693,13 +693,13 @@
 					"MildlyColdEditor",
 					"Linux",
 					"Development",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -710,7 +710,7 @@
 					"MildlyColdEditor",
 					"Linux",
 					"Development",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -719,7 +719,7 @@
 				],
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			},
 			{
@@ -730,14 +730,14 @@
 					"MildlyColdEditor",
 					"Linux",
 					"Development",
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-waitmutex",
 					"-clean"
 				],
 				"problemMatcher": "$msCompile",
 				"type": "shell",
 				"options": {
-					"cwd": "/home/corys/projects/UnrealEngine"
+					"cwd": "/home/cory/projects/UnrealEngine"
 				}
 			}
 		]
@@ -748,100 +748,100 @@
 			{
 				"name": "Launch MildlyCold (Debug)",
 				"request": "launch",
-				"program": "/home/corys/projects/MildlyCold/Binaries/Linux/MildlyCold-Linux-Debug",
+				"program": "/home/cory/projects/MildlyCold/Binaries/Linux/MildlyCold-Linux-Debug",
 				"preLaunchTask": "MildlyCold Linux Debug Build",
 				"args": [
 				],
-				"cwd": "/home/corys/projects/UnrealEngine",
+				"cwd": "/home/cory/projects/UnrealEngine",
 				"type": "cppdbg",
-				"visualizerFile": "/home/corys/projects/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"visualizerFile": "/home/cory/projects/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
 				"showDisplayString": true
 			},
 			{
 				"name": "Launch MildlyCold (DebugGame)",
 				"request": "launch",
-				"program": "/home/corys/projects/MildlyCold/Binaries/Linux/MildlyCold-Linux-DebugGame",
+				"program": "/home/cory/projects/MildlyCold/Binaries/Linux/MildlyCold-Linux-DebugGame",
 				"preLaunchTask": "MildlyCold Linux DebugGame Build",
 				"args": [
 				],
-				"cwd": "/home/corys/projects/UnrealEngine",
+				"cwd": "/home/cory/projects/UnrealEngine",
 				"type": "cppdbg",
-				"visualizerFile": "/home/corys/projects/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"visualizerFile": "/home/cory/projects/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
 				"showDisplayString": true
 			},
 			{
 				"name": "Launch MildlyCold (Development)",
 				"request": "launch",
-				"program": "/home/corys/projects/MildlyCold/Binaries/Linux/MildlyCold",
+				"program": "/home/cory/projects/MildlyCold/Binaries/Linux/MildlyCold",
 				"preLaunchTask": "MildlyCold Linux Development Build",
 				"args": [
 				],
-				"cwd": "/home/corys/projects/UnrealEngine",
+				"cwd": "/home/cory/projects/UnrealEngine",
 				"type": "cppdbg",
-				"visualizerFile": "/home/corys/projects/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"visualizerFile": "/home/cory/projects/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
 				"showDisplayString": true
 			},
 			{
 				"name": "Launch MildlyCold (Test)",
 				"request": "launch",
-				"program": "/home/corys/projects/MildlyCold/Binaries/Linux/MildlyCold-Linux-Test",
+				"program": "/home/cory/projects/MildlyCold/Binaries/Linux/MildlyCold-Linux-Test",
 				"preLaunchTask": "MildlyCold Linux Test Build",
 				"args": [
 				],
-				"cwd": "/home/corys/projects/UnrealEngine",
+				"cwd": "/home/cory/projects/UnrealEngine",
 				"type": "cppdbg",
-				"visualizerFile": "/home/corys/projects/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"visualizerFile": "/home/cory/projects/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
 				"showDisplayString": true
 			},
 			{
 				"name": "Launch MildlyCold (Shipping)",
 				"request": "launch",
-				"program": "/home/corys/projects/MildlyCold/Binaries/Linux/MildlyCold-Linux-Shipping",
+				"program": "/home/cory/projects/MildlyCold/Binaries/Linux/MildlyCold-Linux-Shipping",
 				"preLaunchTask": "MildlyCold Linux Shipping Build",
 				"args": [
 				],
-				"cwd": "/home/corys/projects/UnrealEngine",
+				"cwd": "/home/cory/projects/UnrealEngine",
 				"type": "cppdbg",
-				"visualizerFile": "/home/corys/projects/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"visualizerFile": "/home/cory/projects/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
 				"showDisplayString": true
 			},
 			{
 				"name": "Launch MildlyColdEditor (Debug)",
 				"request": "launch",
-				"program": "/home/corys/projects/UnrealEngine/Engine/Binaries/Linux/UnrealEditor-Linux-Debug",
+				"program": "/home/cory/projects/UnrealEngine/Engine/Binaries/Linux/UnrealEditor-Linux-Debug",
 				"preLaunchTask": "MildlyColdEditor Linux Debug Build",
 				"args": [
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject"
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject"
 				],
-				"cwd": "/home/corys/projects/UnrealEngine",
+				"cwd": "/home/cory/projects/UnrealEngine",
 				"type": "cppdbg",
-				"visualizerFile": "/home/corys/projects/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"visualizerFile": "/home/cory/projects/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
 				"showDisplayString": true
 			},
 			{
 				"name": "Launch MildlyColdEditor (DebugGame)",
 				"request": "launch",
-				"program": "/home/corys/projects/UnrealEngine/Engine/Binaries/Linux/UnrealEditor-Linux-DebugGame",
+				"program": "/home/cory/projects/UnrealEngine/Engine/Binaries/Linux/UnrealEditor-Linux-DebugGame",
 				"preLaunchTask": "MildlyColdEditor Linux DebugGame Build",
 				"args": [
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject"
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject"
 				],
-				"cwd": "/home/corys/projects/UnrealEngine",
+				"cwd": "/home/cory/projects/UnrealEngine",
 				"type": "cppdbg",
-				"visualizerFile": "/home/corys/projects/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"visualizerFile": "/home/cory/projects/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
 				"showDisplayString": true
 			},
 			{
 				"name": "Launch MildlyColdEditor (Development)",
 				"request": "launch",
-				"program": "/home/corys/projects/UnrealEngine/Engine/Binaries/Linux/UnrealEditor",
+				"program": "/home/cory/projects/UnrealEngine/Engine/Binaries/Linux/UnrealEditor",
 				"preLaunchTask": "MildlyColdEditor Linux Development Build",
 				"args": [
-					"/home/corys/projects/MildlyCold/MildlyCold.uproject"
+					"/home/cory/projects/MildlyCold/MildlyCold.uproject"
 				],
-				"cwd": "/home/corys/projects/UnrealEngine",
+				"cwd": "/home/cory/projects/UnrealEngine",
 				"type": "cppdbg",
-				"visualizerFile": "/home/corys/projects/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"visualizerFile": "/home/cory/projects/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
 				"showDisplayString": true
 			},
 			{
@@ -849,11 +849,11 @@
 				"type": "coreclr",
 				"request": "launch",
 				"preLaunchTask": "UnrealBuildTool Linux Development Build",
-				"program": "/home/corys/projects/UnrealEngine/Engine/Build/BatchFiles/RunUBT.bat",
+				"program": "/home/cory/projects/UnrealEngine/Engine/Build/BatchFiles/RunUBT.bat",
 				"args": [
 					"-projectfiles",
 					"-vscode",
-					"-project=/home/corys/projects/MildlyCold/MildlyCold.uproject",
+					"-project=/home/cory/projects/MildlyCold/MildlyCold.uproject",
 					"-game",
 					"-engine",
 					"-dotnet"
@@ -861,7 +861,7 @@
 				"console": "internalConsole",
 				"internalConsoleOptions": "openOnSessionStart",
 				"stopAtEntry": false,
-				"cwd": "/home/corys/projects/UnrealEngine"
+				"cwd": "/home/cory/projects/UnrealEngine"
 			}
 		]
 	}
