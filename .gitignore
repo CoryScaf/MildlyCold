@@ -1,6 +1,7 @@
 # Visual Studio 2015 user specific files
 .vs/
 .vscode/
+.cache/
 
 # Compiled Object files
 *.slo
@@ -73,3 +74,8 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Files for neovim to work
+gen_compile_commands.sh
+compile_commands.json
+clang_flags.txt
