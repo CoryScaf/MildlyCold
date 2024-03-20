@@ -2,10 +2,12 @@
 
 
 #include "MainCharacter.h"
-#include "Engine/Engine.h"
+#include "Camera/CameraComponent.h"
+#include "GameFramework/SpringArmComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
+#include "Components/StaticMeshComponent.h"
+#include "UObject/ConstructorHelpers.h"
 #include "HAL/Platform.h"
-#include "Math/Color.h"
-#include "Misc/AssertionMacros.h"
 
 
 // Sets default values
@@ -14,16 +16,33 @@ AMainCharacter::AMainCharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+    boom_arm = CreateDefaultSubobject<USpringArmComponent>(TEXT("Camera boom"));
+    boom_arm->SetupAttachment(RootComponent);
+    boom_arm->TargetArmLength = 300.0f;
+    boom_arm->bUsePawnControlRotation = true;
+
+    camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
+    camera->SetupAttachment(boom_arm, USpringArmComponent::SocketName);
+    camera->bUsePawnControlRotation = true;
+
+    character_mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Static Mesh"));
+    character_mesh->SetupAttachment(RootComponent);
+
+    static ConstructorHelpers::FObjectFinder<UStaticMesh> face(TEXT("'StaticMesh'/Game/Models/head.head"));
+    character_mesh->SetStaticMesh(face.Object);
+
+    bUseControllerRotationPitch = false;
+    bUseControllerRotationYaw = false;
+    bUseControllerRotationRoll = false;
+
+    GetCharacterMovement()->bOrientRotationToMovement = true;
+    GetCharacterMovement()->RotationRate = FRotator(0, 540, 0);
 }
 
 // Called when the game starts or when spawned
 void AMainCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	
-    check(GEngine != nullptr);
-
-    GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, TEXT("We are using FPSCharacter."));
 }
 
 // Called every frame

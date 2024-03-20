@@ -11,6 +11,15 @@ class MILDLYCOLD_API AMainCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
+    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta=(AllowPrivateAccess = "true"))
+    class USpringArmComponent* boom_arm;
+
+    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta=(AllowPrivateAccess = "true"))
+    class UCameraComponent* camera;
+
+    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta=(AllowPrivateAccess = "true"))
+    class UStaticMeshComponent *character_mesh;
+
 public:
 	// Sets default values for this character's properties
 	AMainCharacter();
