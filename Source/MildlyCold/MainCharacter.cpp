@@ -3,9 +3,11 @@
 
 #include "MainCharacter.h"
 #include "Camera/CameraComponent.h"
+#include "Engine/EngineBaseTypes.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Components/StaticMeshComponent.h"
+#include "Math/MathFwd.h"
 #include "UObject/ConstructorHelpers.h"
 #include "HAL/Platform.h"
 
@@ -28,8 +30,11 @@ AMainCharacter::AMainCharacter()
     character_mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Static Mesh"));
     character_mesh->SetupAttachment(RootComponent);
 
-    static ConstructorHelpers::FObjectFinder<UStaticMesh> face(TEXT("'StaticMesh'/Game/Models/head.head"));
+    static ConstructorHelpers::FObjectFinder<UStaticMesh> face(TEXT("/Script/Engine.StaticMesh'/Game/Models/head.head'"));
     character_mesh->SetStaticMesh(face.Object);
+    character_mesh->SetRelativeRotation(FRotator(0, 180, 0));
+    character_mesh->SetRelativeScale3D(FVector(0.5, 0.5, 0.5));
+    character_mesh->SetRelativeLocation(FVector(0, 0, -50));
 
     bUseControllerRotationPitch = false;
     bUseControllerRotationYaw = false;
@@ -62,6 +67,9 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
     PlayerInputComponent->BindAxis("Turn", this, &AMainCharacter::AddControllerYawInput);
     PlayerInputComponent->BindAxis("LookUp", this, &AMainCharacter::AddControllerPitchInput);
+
+    PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AMainCharacter::StartJump);
+    PlayerInputComponent->BindAction("Jump", IE_Released, this, &AMainCharacter::StopJump);
 }
 
 void AMainCharacter::MoveForward(float value) {
@@ -72,4 +80,12 @@ void AMainCharacter::MoveForward(float value) {
 void AMainCharacter::MoveRight(float value) {
     FVector dir = FRotationMatrix(Controller->GetControlRotation()).GetScaledAxis(EAxis::Y);
     AddMovementInput(dir, value);
+}
+
+void AMainCharacter::StartJump() {
+    bPressedJump = true;
+}
+
+void AMainCharacter::StopJump() {
+    bPressedJump = false;
 }
